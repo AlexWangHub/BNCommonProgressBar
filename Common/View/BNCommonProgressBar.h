@@ -36,12 +36,20 @@ typedef NS_ENUM(NSUInteger, BNCommonGestureState);
 
 + (CGFloat)progressBarVisibleHeight;
 - (CGFloat)value;
+
+// 变更进度，animateWithDuration是传入动画时间
 - (void)setValue:(CGFloat)value;
 - (void)setValue:(CGFloat)value animateWithDuration:(NSTimeInterval)duration time:(NSTimeInterval)time;
 - (void)setValue:(CGFloat)value animateWithDuration:(NSTimeInterval)duration completion:(void (^__nullable)(BOOL finished))completion;
+
+// 重置所有状态，会将进度重置到0
 - (void)reset;
+
+// 暂停动画
 - (void)pauseAnimation;
+// 恢复动画
 - (void)resumeAnimation;
+// 清理动画状态，手动拖拽时先清理动画状态
 - (void)removeProgressAnimation;
 
 @end

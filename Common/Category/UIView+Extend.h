@@ -26,7 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property CGFloat x;
 @property CGFloat y;
-
+@property CGFloat centerX;
+@property CGFloat centerY;
 
 @end
 

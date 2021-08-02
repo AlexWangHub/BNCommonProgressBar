@@ -9,9 +9,9 @@
 #import "UIView+Extend.h"
 #import "BNDataDefine.h"
 
-static const CGFloat kIconSize = 34;
+#define BNResponseWidHeight 40
 
-@interface BNCommonProgressBar ()
+@interface BNCommonProgressBar ()<UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) UIButton *progressIconButton;
 @property (nonatomic, strong) UIView *leftBarView;
@@ -84,7 +84,7 @@ static const CGFloat kIconSize = 34;
         }
         
         if (enablePanProgressIcon) {
-            [self.progressIconButton addGestureRecognizer:self.panGes];
+            [self addGestureRecognizer:self.panGes];
         }
     }
     return self;
@@ -371,6 +371,14 @@ animateWithDuration:(NSTimeInterval)duration
     }
     _showAnchorPoint = showAnchorPoint;
     self.progressIconButton.hidden = !showAnchorPoint;
+}
+
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    CGRect respRect = CGRectMake(- BNResponseWidHeight/ 2, - BNResponseWidHeight / 2, self.width + BNResponseWidHeight, self.height + BNResponseWidHeight);
+    if (CGRectContainsPoint(respRect, point)) {
+        return self;
+    }
+    return [super hitTest:point withEvent:event];
 }
 
 @end

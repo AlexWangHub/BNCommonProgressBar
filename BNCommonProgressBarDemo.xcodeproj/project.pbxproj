@@ -16,6 +16,16 @@
 		B865111926B8241B00AA28C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B865111826B8241B00AA28C6 /* main.m */; };
 		B865112326B8241B00AA28C6 /* BNCommonProgressBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B865112226B8241B00AA28C6 /* BNCommonProgressBarDemoTests.m */; };
 		B865112E26B8241B00AA28C6 /* BNCommonProgressBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B865112D26B8241B00AA28C6 /* BNCommonProgressBarDemoUITests.m */; };
+		B865115026B8243E00AA28C6 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B865113F26B8243E00AA28C6 /* UIView+Extend.m */; };
+		B865115126B8243E00AA28C6 /* BNCommonPanelViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B865114226B8243E00AA28C6 /* BNCommonPanelViewInfo.m */; };
+		B865115226B8243E00AA28C6 /* BNCommonPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B865114626B8243E00AA28C6 /* BNCommonPanelView.m */; };
+		B865115326B8243E00AA28C6 /* BNCommonBusinessView.m in Sources */ = {isa = PBXBuildFile; fileRef = B865114726B8243E00AA28C6 /* BNCommonBusinessView.m */; };
+		B865115426B8243E00AA28C6 /* BNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B865114926B8243E00AA28C6 /* BNButton.m */; };
+		B865115526B8243E00AA28C6 /* BNToolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B865114C26B8243E00AA28C6 /* BNToolHelper.m */; };
+		B865115626B8243E00AA28C6 /* BNBuildHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B865114D26B8243E00AA28C6 /* BNBuildHelper.m */; };
+		B865115926B8257900AA28C6 /* BNSystemSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B865115826B8257900AA28C6 /* BNSystemSliderViewController.m */; };
+		B865115C26B82F8C00AA28C6 /* BNCustomProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B865115B26B82F8C00AA28C6 /* BNCustomProgressViewController.m */; };
+		B865115F26B82FFD00AA28C6 /* BNCommonProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B865115E26B82FFD00AA28C6 /* BNCommonProgressBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,27 @@
 		B865112926B8241B00AA28C6 /* BNCommonProgressBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNCommonProgressBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B865112D26B8241B00AA28C6 /* BNCommonProgressBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCommonProgressBarDemoUITests.m; sourceTree = "<group>"; };
 		B865112F26B8241B00AA28C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B865113D26B8243E00AA28C6 /* BNDataDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDataDefine.h; sourceTree = "<group>"; };
+		B865113F26B8243E00AA28C6 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		B865114026B8243E00AA28C6 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		B865114226B8243E00AA28C6 /* BNCommonPanelViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCommonPanelViewInfo.m; sourceTree = "<group>"; };
+		B865114326B8243E00AA28C6 /* BNCommonBusinessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonBusinessView.h; sourceTree = "<group>"; };
+		B865114426B8243E00AA28C6 /* BNCommonPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonPanelView.h; sourceTree = "<group>"; };
+		B865114526B8243E00AA28C6 /* BNCommonPanelViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonPanelViewInfo.h; sourceTree = "<group>"; };
+		B865114626B8243E00AA28C6 /* BNCommonPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCommonPanelView.m; sourceTree = "<group>"; };
+		B865114726B8243E00AA28C6 /* BNCommonBusinessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCommonBusinessView.m; sourceTree = "<group>"; };
+		B865114926B8243E00AA28C6 /* BNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNButton.m; sourceTree = "<group>"; };
+		B865114A26B8243E00AA28C6 /* BNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNButton.h; sourceTree = "<group>"; };
+		B865114C26B8243E00AA28C6 /* BNToolHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNToolHelper.m; sourceTree = "<group>"; };
+		B865114D26B8243E00AA28C6 /* BNBuildHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNBuildHelper.m; sourceTree = "<group>"; };
+		B865114E26B8243E00AA28C6 /* BNToolHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNToolHelper.h; sourceTree = "<group>"; };
+		B865114F26B8243E00AA28C6 /* BNBuildHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNBuildHelper.h; sourceTree = "<group>"; };
+		B865115726B8257900AA28C6 /* BNSystemSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNSystemSliderViewController.h; sourceTree = "<group>"; };
+		B865115826B8257900AA28C6 /* BNSystemSliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNSystemSliderViewController.m; sourceTree = "<group>"; };
+		B865115A26B82F8C00AA28C6 /* BNCustomProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCustomProgressViewController.h; sourceTree = "<group>"; };
+		B865115B26B82F8C00AA28C6 /* BNCustomProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCustomProgressViewController.m; sourceTree = "<group>"; };
+		B865115D26B82FFD00AA28C6 /* BNCommonProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCommonProgressBar.h; sourceTree = "<group>"; };
+		B865115E26B82FFD00AA28C6 /* BNCommonProgressBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCommonProgressBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +115,7 @@
 		B86510FA26B8241A00AA28C6 = {
 			isa = PBXGroup;
 			children = (
+				B865113B26B8243E00AA28C6 /* Common */,
 				B865110526B8241A00AA28C6 /* BNCommonProgressBarDemo */,
 				B865112126B8241B00AA28C6 /* BNCommonProgressBarDemoTests */,
 				B865112C26B8241B00AA28C6 /* BNCommonProgressBarDemoUITests */,
@@ -115,6 +147,10 @@
 				B865111426B8241B00AA28C6 /* LaunchScreen.storyboard */,
 				B865111726B8241B00AA28C6 /* Info.plist */,
 				B865111826B8241B00AA28C6 /* main.m */,
+				B865115726B8257900AA28C6 /* BNSystemSliderViewController.h */,
+				B865115826B8257900AA28C6 /* BNSystemSliderViewController.m */,
+				B865115A26B82F8C00AA28C6 /* BNCustomProgressViewController.h */,
+				B865115B26B82F8C00AA28C6 /* BNCustomProgressViewController.m */,
 			);
 			path = BNCommonProgressBarDemo;
 			sourceTree = "<group>";
@@ -135,6 +171,70 @@
 				B865112F26B8241B00AA28C6 /* Info.plist */,
 			);
 			path = BNCommonProgressBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		B865113B26B8243E00AA28C6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B865113C26B8243E00AA28C6 /* Define */,
+				B865113E26B8243E00AA28C6 /* Category */,
+				B865114126B8243E00AA28C6 /* PanelView */,
+				B865114826B8243E00AA28C6 /* View */,
+				B865114B26B8243E00AA28C6 /* Helper */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B865113C26B8243E00AA28C6 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				B865113D26B8243E00AA28C6 /* BNDataDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		B865113E26B8243E00AA28C6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B865113F26B8243E00AA28C6 /* UIView+Extend.m */,
+				B865114026B8243E00AA28C6 /* UIView+Extend.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B865114126B8243E00AA28C6 /* PanelView */ = {
+			isa = PBXGroup;
+			children = (
+				B865114226B8243E00AA28C6 /* BNCommonPanelViewInfo.m */,
+				B865114326B8243E00AA28C6 /* BNCommonBusinessView.h */,
+				B865114426B8243E00AA28C6 /* BNCommonPanelView.h */,
+				B865114526B8243E00AA28C6 /* BNCommonPanelViewInfo.h */,
+				B865114626B8243E00AA28C6 /* BNCommonPanelView.m */,
+				B865114726B8243E00AA28C6 /* BNCommonBusinessView.m */,
+			);
+			path = PanelView;
+			sourceTree = "<group>";
+		};
+		B865114826B8243E00AA28C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B865115D26B82FFD00AA28C6 /* BNCommonProgressBar.h */,
+				B865115E26B82FFD00AA28C6 /* BNCommonProgressBar.m */,
+				B865114926B8243E00AA28C6 /* BNButton.m */,
+				B865114A26B8243E00AA28C6 /* BNButton.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B865114B26B8243E00AA28C6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B865114C26B8243E00AA28C6 /* BNToolHelper.m */,
+				B865114D26B8243E00AA28C6 /* BNBuildHelper.m */,
+				B865114E26B8243E00AA28C6 /* BNToolHelper.h */,
+				B865114F26B8243E00AA28C6 /* BNBuildHelper.h */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +366,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B865115926B8257900AA28C6 /* BNSystemSliderViewController.m in Sources */,
+				B865115F26B82FFD00AA28C6 /* BNCommonProgressBar.m in Sources */,
+				B865115426B8243E00AA28C6 /* BNButton.m in Sources */,
+				B865115126B8243E00AA28C6 /* BNCommonPanelViewInfo.m in Sources */,
+				B865115326B8243E00AA28C6 /* BNCommonBusinessView.m in Sources */,
 				B865110E26B8241A00AA28C6 /* ViewController.m in Sources */,
 				B865110826B8241A00AA28C6 /* AppDelegate.m in Sources */,
 				B865111926B8241B00AA28C6 /* main.m in Sources */,
+				B865115026B8243E00AA28C6 /* UIView+Extend.m in Sources */,
+				B865115526B8243E00AA28C6 /* BNToolHelper.m in Sources */,
 				B865110B26B8241A00AA28C6 /* SceneDelegate.m in Sources */,
+				B865115C26B82F8C00AA28C6 /* BNCustomProgressViewController.m in Sources */,
+				B865115626B8243E00AA28C6 /* BNBuildHelper.m in Sources */,
+				B865115226B8243E00AA28C6 /* BNCommonPanelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

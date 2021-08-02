@@ -9,6 +9,13 @@
 
 typedef NS_ENUM(NSUInteger, BNCommonPanelViewLevel) {
     BNCommonPanelViewLevelDefault = 0, ///< 占位
-    BNCommonPanelViewLevelScroll = 1, ///< scrollView 卡顿 Demo
-    BNCommonPanelViewLevelTableView = 2, ///< tableView 卡顿 Demo
+    BNCommonPanelViewLevelSystemSlider = 1, ///< 系统Slider
+    BNCommonPanelViewLevelCustomProgressBar = 2, ///< 自定义progressBar
+};
+
+typedef NS_ENUM(NSUInteger, BNCommonGestureState) {
+    BNCommonGestureStateUnKnown,
+    BNCommonGestureStateBegin,
+    BNCommonGestureStateMove,
+    BNCommonGestureStateEnd,
 };

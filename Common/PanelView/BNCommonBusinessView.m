@@ -29,11 +29,11 @@
 - (void)setUpUI {
     NSString *tips = @"";
     switch (self.info.level) {
-        case BNCommonPanelViewLevelScroll:
-            tips = @"scrollView 卡顿 Demo";
+        case BNCommonPanelViewLevelSystemSlider:
+            tips = @"系统 slider ";
             break;
-        case BNCommonPanelViewLevelTableView:
-            tips = @"tableView 卡顿 Demo";
+        case BNCommonPanelViewLevelCustomProgressBar:
+            tips = @"自定义 progressBar";
             break;
         default:
             break;
