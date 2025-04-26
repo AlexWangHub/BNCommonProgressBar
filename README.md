@@ -36,7 +36,7 @@ BNCommonProgressBar.h
 
 ![](https://tva1.sinaimg.cn/large/008i3skNgy1gt310cq01ig30ay0munpd.gif)
 
-所以 UISlider 不满足 第2点：「流畅的回调动画」，而视频号场景下，视频进度回调更新进度条进度是高曝光的场景，一定要把这个动画做得足够流畅。
+所以 UISlider 不满足 第2点：「流畅的回调动画」，而业务场景下，视频进度回调更新进度条进度是高曝光的场景，一定要把这个动画做得足够流畅。
 
 在这样的背景下，放弃 UISlider ，自定义进度条是唯一的选择。
 
